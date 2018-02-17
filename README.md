@@ -51,5 +51,5 @@ Programming the ESP13 board:
 5. Code can now be uploaded.
 6. the RST button on the ESP13 board may need to be pressed before each upload.
 
-Email any questions or comments to me, John, at john.graham@outlook.com. Please begin your email title with "NTPClient Repo".
+Email any questions or comments to me, John, at john.graham@outlook.co.nz. Please begin your email title with "NTPClient Repo".
 I look forward to answering your questions or reading your comments.
