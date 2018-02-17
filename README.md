@@ -54,7 +54,7 @@ See the image below.
 **Image(s)**
 
 ![alt text](https://i.imgur.com/Ky0mRgn.jpg)
-Fig 1. Wiring as per the instructions described in the **Programming the ESP13 board** section.
+Fig 1. USB plug wiring as per the instructions described in the **Programming the ESP13 board** section.
 
 Email any questions or comments to me, John, at john.graham@outlook.co.nz. Please begin your email title with "NTPClient Repo".
 I look forward to answering your questions or reading your comments.
