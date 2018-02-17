@@ -29,15 +29,17 @@
   
   Alternatively, if you are wanting to do something specific with either the hours, minutes of seconds, then these can be obtained by:
   
-  ` unsigned long totalSeconds = ntp.decodeSeconds();
-  
+```
+    unsigned long totalSeconds = ntp.decodeSeconds();
+    
     unsigned short hours = TimeConverter::getInstance( UTC_OFFSET )->getHours( totalSeconds );
     
     // Note: The UTC_OFFSET only needs to be passed once.
     
     unsigned short minutes = TimeConverter::getInstance()->getMinutes( totalSeconds );
     
-    unsigned short seconds = TimeConverter::getInstance()->getSeconds( totalSeconds ); `
+    unsigned short seconds = TimeConverter::getInstance()->getSeconds( totalSeconds ); 
+```
  
 **Programming the ESP13 board:**
 1. Use a jumper cable to join D0 to G. Note:
