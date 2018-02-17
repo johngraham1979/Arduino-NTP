@@ -1,4 +1,4 @@
-# Arduino NTP Client using the duinotech ESP13 wtih ESP8266 WiFi chip.
+# Arduino NTP Client using the duinotech ESP13 with ESP8266 WiFi chip.
 ## Succinct Arduino project code for conducting NTP communication.
 ### Improved implementation, Hides details, separating concerns.
 
