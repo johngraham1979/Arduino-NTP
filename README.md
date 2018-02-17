@@ -52,10 +52,10 @@ See the image below.
 5. Code can now be uploaded.
 6. the *RST* button on the ESP13 board may need to be pressed before each upload.
 
-**Images**
+**Image(s)**
 
 ![alt text](https://i.imgur.com/Ky0mRgn.jpg)
-
+Fig 1. Wiring as per the instructions described in the **Programming the ESP13 board** section.
 
 Email any questions or comments to me, John, at john.graham@outlook.co.nz. Please begin your email title with "NTPClient Repo".
 I look forward to answering your questions or reading your comments.
