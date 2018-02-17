@@ -2,20 +2,20 @@
 ## Arduino project code for conducting NTP communication and decoding the time.
 
 **Included in this repo:**
-- Arduino *NTPClient.ino* project file that, when uploaded to the ESP13, connects to internet over WiFi and requests, recieves and prints the current time.
-- New Arduino libraries that the .ino project requires.
+- Arduino *NTPClient.ino* project file that, when uploaded to the ESP13, connects to the internet over WiFi and requests, recieves and prints the current time. 
+- New Arduino libraries that the .ino project requires. These libraries hide unnecessary complexity from the Arduino programmer of the NTP communication, calculating the hours, minutes, seconds, creating a time-string.
 
 **17 February 2018:**  
 1. This has been written-for and tested-with duinotech's ESP13 board (containing an ESP8266 WiFi chip).
 
 **Guide:**
-1. Install the ESP8266 boards for the Arduino IDE by following this guide: https://randomnerdtutorials.com/how-to-install-esp8266-board-arduino-ide/
+1. Install the ESP8266 boards for the Arduino IDE/framework by following this guide: https://randomnerdtutorials.com/how-to-install-esp8266-board-arduino-ide/
 2. Clone or otherwise download this repo.
-3. Copy the library folders from this repo (*TimeConverter*, *NTP*, and *ESP8266WiFi*) to your *../Arduino/libraries* location.
+3. Copy the library folders from this repo (*TimeConverter*, *NTP*, and *ESP8266WiFi*) to your *../Arduino/libraries* location. On the Windows operating system, this is defaulted to the user's *Documents* folder.
 4. Copy the Arduino project folder (*NTPClient*) to wherever you store your regular Arduino projects.
 5. Open the *NTPClient.ino* Arduino project file with the Arduino IDE.
 6. Upload this code to your ESP13 WiFi board (see the **Programming the ESP13 board** section).
-7. Select "Serial Monitor" from the Arduino IDE's Tools menu.
+7. Select "Serial Monitor" from the Arduino IDE's Tools menu to periodically see the latest time.
 
 **Notes:**
 1. Originally programmed and tested on the duinotech's ESP13 WiFi board (with ESP8266 WiFi chip), the code has been written with the goal of ultimately working with Arduino compatible RJ45 (non WiFi) boards as well. Testing and polishing this additional use is pending, however.
