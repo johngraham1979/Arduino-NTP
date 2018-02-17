@@ -1,6 +1,5 @@
 # Arduino NTP Client using the duinotech ESP13 with ESP8266 WiFi chip.
-## Succinct Arduino project code for conducting NTP communication.
-### Improved implementation, Hides details, separating concerns.
+## Arduino project code for conducting NTP communication and decoding the time.
 
 **Included in this repo:**
 - Arduino *NTPClient.ino* project file that, when uploaded to the ESP13, connects to internet over WiFi and requests, recieves and prints the current time.
