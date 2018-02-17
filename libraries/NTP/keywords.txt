@@ -1,0 +1,32 @@
+#######################################
+# Syntax Coloring Map For NTP
+#######################################
+
+#######################################
+# Library (KEYWORD3)
+#######################################
+
+NTP								KEYWORD3
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+addServerIP						KEYWORD2
+begin							KEYWORD2
+getUDP							KEYWORD2
+parsePacket						KEYWORD2
+sendRequest						KEYWORD2
+decodeSeconds					KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+LOCAL_PORT                      LITERAL1

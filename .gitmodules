@@ -1,0 +1,12 @@
+[submodule "libraries/ESP8266WiFi"]
+	path = libraries/ESP8266WiFi
+	url = https://github.com/johngraham1979/Arduino.git
+[submodule "libraries/NTP"]
+	path = libraries/NTP
+	url = https://github.com/johngraham1979/Arduino.git
+[submodule "libraries/TimeConverter"]
+	path = libraries/TimeConverter
+	url = https://github.com/johngraham1979/Arduino.git
+[submodule "NTPClient"]
+	path = NTPClient
+	url = https://github.com/johngraham1979/Arduino.git

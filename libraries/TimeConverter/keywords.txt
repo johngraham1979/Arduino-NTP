@@ -1,0 +1,31 @@
+#######################################
+# Syntax Coloring Map For TimeConverter
+#######################################
+
+#######################################
+# Library (KEYWORD3)
+#######################################
+
+TimeConverter                   KEYWORD3
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+getInstance						KEYWORD2
+getHours						KEYWORD2
+getMinutes						KEYWORD2
+getSeconds						KEYWORD2
+getTimeCString					KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+UTC_OFFSET                      LITERAL1
