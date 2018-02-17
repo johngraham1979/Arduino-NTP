@@ -48,7 +48,7 @@ See the image below.
   - The green and white wires from the USB plug connect to the *RXO* and *TXO* pins, on the same *UART* row, respectively.
 3. Select *Generic ESP8266 Module* as the board.
 4. The port may not have a descriptive label other than *COM#*.
-5. Code can now be uploaded.
+5. Code can now be uploaded to the ESP13 board.
 6. the *RST* button on the ESP13 board may need to be pressed before each upload.
 
 **Image(s)**
