@@ -44,9 +44,12 @@ Programming the ESP13 board:
   - There is a 3 x 4 grid of pins with the three rows labelled A, 5V, G. Any of the pins on the row labelled 'G' is fine.
 2. Connect USB wires to the board for power and writing.
   - There is a 2 x 4 grid of pins with the two rows labelled UART, OTH. The columns are labelled 3V3, G, RXO, TXO.
-  - the red and black wires from the USB plug connect to the 3V3 and G pins, on the UART row, respectively.
-  - the green and white wires from the USB plug connect to the RXO and TXO pins, on the same UART row, respectively.
+  - The red and black wires from the USB plug connect to the 3V3 and G pins, on the UART row, respectively.
+  - The green and white wires from the USB plug connect to the RXO and TXO pins, on the same UART row, respectively.
 3. Select 'Generic ESP8266 Module' as the board.
 4. The port may not have a descriptive label other than 'COM#'.
 5. Code can now be uploaded.
 6. the RST button on the ESP13 board may need to be pressed before each upload.
+
+Email any questions or comments to me, John, at john.graham@outlook.com. Please begin your email title with "NTPClient Repo".
+I look forward to answering your questions or reading your comments.
