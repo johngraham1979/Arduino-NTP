@@ -1,24 +1,21 @@
 # Arduino NTP Client using the duinotech ESP13 wtih ESP8266 WiFi chip.
 ## Succinct Arduino project code for conducting NTP communication.
-### Improved implementation, Hiding details, separating concerns.
+### Improved implementation, Hides details, separating concerns.
 
 **Included in this repo:**
-- Regular Arduino NTPClient.ino project that connects to internet over WiFi and requests, recieves and prints the current time.
-- Arduino libraries required for the NTPClient.ino project.
+- Arduino NTPClient.ino project file that, when uploaded to the ESP13, connects to internet over WiFi and requests, recieves and prints the current time.
+- New Arduino libraries that the .ino project requires.
 
 **17 February 2018:**  
-1. This has been written for and tested with duinotech's ESP13 board (containing an ESP8266 WiFi chip).
+1. This has been written-for and tested-with duinotech's ESP13 board (containing an ESP8266 WiFi chip).
 
-**Instructions:**
+**Guide:**
 1. Install the ESP8266 boards for the Arduino IDE by following this guide: https://randomnerdtutorials.com/how-to-install-esp8266-board-arduino-ide/
-
 2. Clone or otherwise download this repo.
-
 3. Copy the library folders from this repo ('TimeConverter', 'NTP', and "ESP8266WiFi') to your ../Arduino/libraries location.
 4. Copy the Arduino project folder ('NTPClient') to wherever you store your regular Arduino projects.
-
-5. Open NTPClient/NTPClient.ino Arduino project file with the Arduino IDE.
-6. Upload this code to your ESP8266 WiFi board (see "Programming the ESP13 board" section).
+5. Open the *NTPClient.ino* Arduino project file with the Arduino IDE.
+6. Upload this code to your ESP13 WiFi board (see "Programming the ESP13 board" section).
 7. Select "Serial Monitor" from the Arduino IDE's Tools menu.
 
 **Notes:**
@@ -42,6 +39,7 @@
 ```
  
 **Programming the ESP13 board:**
+See the image below.
 1. Use a jumper cable to join *D0* to *G*. Note:
   - There is a 2 x 9 grid of pins with the two rows labelled *G*, *3V*, *D*. Each column is numbered. This is where to find *D0*.
   - There is a 3 x 4 grid of pins with the three rows labelled *A*, *5V*, *G*. Connecting *D0* to any of the pins on the row labelled *G* is fine.
@@ -53,6 +51,11 @@
 4. The port may not have a descriptive label other than *COM#*.
 5. Code can now be uploaded.
 6. the *RST* button on the ESP13 board may need to be pressed before each upload.
+
+**Images**
+
+![alt text](https://i.imgur.com/Ky0mRgn.jpg)
+
 
 Email any questions or comments to me, John, at john.graham@outlook.co.nz. Please begin your email title with "NTPClient Repo".
 I look forward to answering your questions or reading your comments.
